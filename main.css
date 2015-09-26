@@ -23,14 +23,14 @@ body{
 	  background-repeat: no-repeat;
 	opacity:.1;
 position: absolute;
-height: auto;
+height: 100%;
 width: 100vh;
 animation-name: fadeIn;
 animation-duration: 40s;
 }
 .powder{
 	  background-repeat: no-repeat;
-	opacity:.05;
+	opacity:.1;
 position: absolute;
 height: 100%;
 width: 100%;
