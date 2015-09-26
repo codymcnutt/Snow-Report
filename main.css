@@ -1,0 +1,86 @@
+body{
+	background-color: black;
+}
+
+@font-face {
+    font-family: snowboard;
+    src: url(snows.woff);
+}
+.ratemenu{
+	height: 50vh;
+	width: 50vh;
+	display: inline;
+}
+
+.text{
+	font-family: snowboard;
+	font-size: .3em;
+	color: white;
+
+}
+
+.snow{
+	  background-repeat: no-repeat;
+	opacity:.1;
+position: absolute;
+height: auto;
+width: 100vh;
+animation-name: fadeIn;
+animation-duration: 40s;
+}
+.powder{
+	  background-repeat: no-repeat;
+	opacity:.05;
+position: absolute;
+height: 100%;
+width: 100%;
+
+}
+.menu{
+	height: 10vh;
+	top:80vh;
+	left:47%;
+	position: fixed;
+	display: inline-block;
+	cursor: pointer !important;
+}
+.menu:hover{
+animation-name:pulse;
+animation-duration: .5s;
+opacity:.5;
+}
+.inverted {
+   -webkit-filter: invert(1);
+   filter: invert(1);
+   opacity:.3;
+   }
+
+
+ .left{ background-color: darkgray;
+    background-image: -webkit-gradient(linear,50% 0%,50% 100%,color-stop(0,#3e3e3e),color-stop(1,#333));
+    color: #aaa !important;
+    cursor: pointer !important;
+    	position: fixed;
+    display: inline-block;
+    height:7vh;
+    top:40vh;
+    left:1%;
+    cursor: pointer
+}
+
+
+.right{background-color: #darkgray;
+    background-image: -webkit-gradient(linear,50% 0%,50% 100%,color-stop(0,#3e3e3e),color-stop(1,#333));
+    color: #aaa !important;
+    cursor: pointer !important;
+    	position: fixed;
+    display: inline-block;
+    height:7vh;
+    top:40vh;
+    transform: rotate(180deg);
+    right:1%;
+    cursor: pointer
+
+}
+.right:hover, .left:hover{
+opacity:.5;}
